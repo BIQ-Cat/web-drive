@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
-    "jsonwebtoken": "*",
     "bcrypt": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
     "passport": "*",
-    "passport-jwt": "*",
-    "passport-local": "*",
-    "body-parser": "*"
+    "passport-jwt": "*"
   },
   "author": "BIQ-Cat",
   "license": "GPL-3.0-or-later"
